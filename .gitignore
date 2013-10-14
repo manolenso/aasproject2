@@ -4,8 +4,8 @@
 # E_reserv
 #########
 
-#reserv/inc/conec.php
-#reserv/inc/chemin.php
+reserv/inc/conec.php
+reserv/inc/chemin.php
 
 #########
 # phpbb.gitignore
@@ -13,7 +13,7 @@
 #########
 
 forum/cache/*.php
-#forum/config.php
+forum/config.php
 
 ########
 # scripts php

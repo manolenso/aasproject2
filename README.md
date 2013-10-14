@@ -57,7 +57,7 @@ Pour travailler sur le site, c'est simple il suffit de forker le dépot <remylau
  - Emplacement sur carte googleMap avec personnalisation
  - visite avec photos
  - visite virtuelle de l'appartement (à venir)
- - demande de réservation avec visualisation du calendrier
+ - demande de réservation avec visualisation du calendrier actualisé
  - calendrier avec en couleur tarifs suivant saisons
  - calendrier signalétique couleur (en cours de réservation),
    (réservé)
