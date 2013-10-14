@@ -1,0 +1,93 @@
+---------------------------------------------------------------------------------------------------
+Affichage dynamique vertical par plages de 3mois du calendrier E-reserv dans une colonne de 200px.
+---------------------------------------------------------------------------------------------------
+Testé sur: firefox, IE8, Opéra, Chrome
+
+
+---------------------------------------------------------------------------------------------------
+Instalation du calendrier dynamique vertical / 3 minutes environ
+---------------------------------------------------------------------------------------------------
+
+Ajouter le contenu du dossier mini_calendar.zip dans le répertoire | cal | d' E-reserv. Pour préserver les fichiers originaux, j’ai modifié et renommé la feuille de style et le fichier index pour que tout fonctionne en parallèle de l’installation originale. 
+
+
+------------------------- 
+Dossier mini_calendar.zip
+------------------------- 
+
+- Le CSS du slider dans le dossier : SlidingPanelsSample
+- mois1.php : tableau avec les incudes des 3 premiers mois
+- mois2.php : tableau avec les incudes des 3 mois suivants
+- mois3.php : tableau avec les incudes des 3 mois suivants
+- mois4.php : tableau avec les incudes des 3 mois suivants
+- style_3mois.css (remplace cal/style.css)  : la feuille de style du calendrier original modifié
+- 3mois.php (remplace cal/index.php) : le slider CSS (adobe) qui appelle les pages mois1/2/3/4.php
+- test_calendar.php : pour tester le nouvel affichage
+
+---------------------------------------------------------------------------------------------------
+Pour tester l’affichage de votre calendrier. 
+---------------------------------------------------------------------------------------------------
+Ex : http://votresite/ereserv/cal/test_calendar.php
+
+---------------------------------------------------------------------------------------------------
+Pour insérer le calendrier dans vos pages. 
+---------------------------------------------------------------------------------------------------
+
+J’appelle dans les pages du site :  la page 3mois.php par une iframe du type :  <iframe name="calendrier" SRC="http://monsite/erserv/cal/3mois.php" scrolling="no" height="520" width="170" FRAMEBORDER="no"></iframe> 
+
+
+Le tour est joué. Enjoy !
+
+Pour voir l’implantation du calendrier >>> http://www.location-chalet-villard-reculas.com/equipement_chalet_a_louer_villard_reculas.php 
+
+François maire - http://21turns.net
+
+
+
+
+Options
+
+---------------------------
+Pour une colonne plus large
+---------------------------
+
+Aller dans le fichier 3mois.php et modifier les width des classes : .SlidingPanels & .SlidingPanelsContent
+
+.SlidingPanels {
+	width: 188px;
+	height: 375px;
+	margin-top: -15px;
+	margin-bottom: 5px;		
+	
+}
+.SlidingPanelsContent {
+	width: 188px;
+	height: 375px;
+	margin-bottom: 5px;	
+}
+
+------------------------------------------
+Pour modifier taille et typo du calendrier
+------------------------------------------
+Aller dans le fichier style_3mois.css et modifier classe .ligne et la div #libelle...
+
+
+.ligne {
+	width: 178px;
+	padding: 0;
+	font-size: 9px;
+	text-align: center;
+	margin: 0 auto;
+	float : left;
+	margin-left: 0px;
+} 
+
+#libelle {
+	width: 188px;
+	padding: 0;
+	color: #333;
+	text-align: center;
+	font-size: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}

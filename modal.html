@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Twitter Bootstrap Modals Example</title>
+<meta name="description" content="Creating Modal Window with Twitter Bootstrap">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+<h2>Example of creating Modals with Twitter Bootstrap</h2>
+<p><a data-toggle="modal" href="#example" class="btn btn-primary btn-large">Disponibilitées</a></p>
+<div id="example" class="modal hide fade in" style="display: none; ">
+<div class="modal-header">
+<a class="close" data-dismiss="modal">×</a>
+<h3>Disponibilitées<br> pour Cabourg</h3>
+</div>
+<div class="modal-body-dispo">
+<iframe  name="calendrier" SRC="reserv/cal/3mois.php?ID_location=3" scrolling="no" height="500" width="182" FRAMEBORDER="yes"></iframe>
+</div>
+<div class="modal-footer-dispo">
+<a href="#" class="btn" data-dismiss="modal">Fermer</a>
+<a href="#" class="btn btn-success">Reserver</a><br>
+
+</div>
+</div>
+
+</div>
+<script src="js/vendor/jquery-1.9.1.min.js"></script>
+<script src="js/vendor/bootstrap.js"></script>
+</body>
+</html>

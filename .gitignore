@@ -1,0 +1,22 @@
+#########
+#ignorer les fichiers
+# de connections a la base
+# E_reserv
+#########
+
+#reserv/inc/conec.php
+#reserv/inc/chemin.php
+
+#########
+# phpbb.gitignore
+# A generic .gitignore file for phpBB
+#########
+
+forum/cache/*.php
+#forum/config.php
+
+########
+# scripts php
+########
+crawlprotect
+crawltrack

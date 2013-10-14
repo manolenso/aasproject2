@@ -1,0 +1,50 @@
+// -----------------------------------------
+// Source  :	http://cogites.com
+// Script  :	E RESERV
+// Version :	5
+// revente et redistribution interdites 
+// Vous devez laisser le copyright.
+// -----------------------------------------
+
+
+ INSTALLATION.
+
+ 1 dézipper le dossier e_reserv.zip, éditer le fichier inc/conec.php et renseigner les variables.
+ En cas de doute, les informations (host, ...) sont disponibles auprés de votre hébergeur.
+
+ 2 envoyer le dossier avec les sous dossiers sur votre serveur
+
+ 3 créer les tables dans votre base de données:
+	- soit en allant à l'adresse http://monsite.com/e_reserv/install/crea_tables.php. Les tables seront alors créées  automatiquement.
+	- soit en récupérant leur struture dans le fichier table.sql
+ Si tous se passe bien, à partir de ce point vous n'avez qu'à suivre les instructions à l'écran.
+
+ 4 Pour mettre la calendrier sur votre site (pour vos visiteurs), rendez vous dans la section "code à insérer dans vos pages"
+
+
+ Tout est en place!
+
+
+ NB: par défaut les login et mot de passe sont "admin". Aprés l'installation, je vous conseille de supprimer le dossier "install".
+ Vous pouvez modifier l'apparence du calendrier grâce au fichier style.css qui se trouve dans le dossier cal/style.css
+
+
+ATTENTION : Si votre site est sur un hébergement free.fr, vous devez créer un dossier "sessions" à la racine de votre hébergement.
+
+
+
+-----------------------------------------
+
+
+ - en cas de difficultés http://cogites.com/e_reserv/faq_reserv.php
+
+ - les seules conditions requises sont que votre hébergeur accèpte le php et les bases de données MySQL
+
+ - des personnees m'ont aidées à vous offrire ce script, les remerciements se trouvent ici http://cogites.com.fr/e_reserv/#merci
+
+ - revente et redistribution interdites. Vous devez laisser le copyright.
+
+ - pour toutes questions, remarques, critiques et encouragements => http://cogites.com.fr/e_reserv/
+
+
+-----------------------------------------

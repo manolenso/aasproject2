@@ -1,0 +1,4 @@
+# ignorer les fichiers de connections a la base
+
+reserv/inc/conec.php
+reserv/inc/chemin.php

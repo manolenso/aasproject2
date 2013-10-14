@@ -1,0 +1,30 @@
+/*
+// -----------------------------------------
+// Source  :	http://cogites.com
+// Script  :	E RESERV
+// Version :	5
+// revente et redistribution interdites 
+// Vous devez laisser le copyright.
+// -----------------------------------------
+
+l'affichage du calendrier est géré avec avec le fichier style.css dans le dossier "cal"
+*/
+
+
+body {
+    padding-top: 60px; /* 60px pour que le menu ne dépasse pas sur le reste */
+}
+
+.titre{ /* améliore le titre des page h2 */
+color:#FF9933; /* orange */
+font-family: Helvetica, Arial, sans-serif;
+font-variant: small-caps; /* petite majuscule */
+
+}
+
+
+.liste { /* pour les listes de réservations et de locataires */
+	 box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
+         margin-left: -20px;
+         margin-bottom: 30px;
+}
