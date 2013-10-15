@@ -11,12 +11,14 @@
 Avec GitHub ce dépôt peut etre utilisé en mode collaboratif
 aussi toutes les bonnes volontés sont bienvenues!
 
-Pour travailler sur le site, c'est simple il suffit de forker le dépot <remylaurent89@gmail.com>
+Pour travailler sur le site, c'est simple il suffit de forker ce dépot 
 
 pour qu'il soit fonctionnel sur Manp, Wamp, ou un serveur web il faut adapter
  dans "reserv/inc/"  les fichiers conec.php et chemin.php
 pour le forum c'est dans "forum" le fichier config.php il faut bien sur les deux bases Mysql
 je ferais un envoi sur demande
+
+<remylaurent89@gmail.com>
 
 </td>
     </tr>
